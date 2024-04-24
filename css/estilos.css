@@ -344,8 +344,8 @@ footer .listas a{
         flex-direction: column;
         line-height: 50px;
         transition: 0.2s;
-        width: 50%;   
-        background-color:black;
+        width: 90%;   
+        background-color:chocolate;
         position: absolute;
         left: 15px;
         top: 65px;
@@ -383,13 +383,20 @@ footer .listas a{
     }
 }
 
-
+@media(max-width: 600px) {
+    .pago{
+        margin-left: -50px;
+    }
+}
 /*---------------------- MENU RESPONSIVO  500px--------------------------*/
 
 @media(max-width: 500px){
     .logo{
         height: 50px;
         padding-top: 5px;
+    }
+    .pago{
+        margin-left: -100px;
     }
     .header{
         height: 70px;
